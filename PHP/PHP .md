@@ -190,7 +190,7 @@ if ($nilai >= 70) {
 }
 ```
 #### Hasil
-![[Screenshot111.png]]
+![](asetphp/Screenshot111.png)
 #### Analisis
 - Baris 1: Sebuah variabel $nilai diinisialisasi dengan nilai 80.
 - Baris 2: Kondisi dievaluasi, yaitu apakah nilai $nilai lebih besar atau sama dengan 70.
@@ -230,7 +230,7 @@ if ($nilai >= 80) {
 ```
 
 #### Hasil
-![[Screenshot102.png]]
+![](asetphp/Screenshot102.png)
 
 #### Analisis
 Dalam analisis, program akan mengevaluasi kondisi secara berurutan. Jika $nilai lebih besar atau sama dengan 80, program akan menampilkan pesan "Selamat! Anda lulus dengan nilai yang baik.". Jika ya, program akan menampilkan pesan "Anda lulus.". Jika kedua kondisi sebelumnya tidak terpenuhi, program akan menjalankan blok kode dalam pernyataan else dan menampilkan pesan "Maaf, Anda tidak lulus.".
@@ -273,7 +273,7 @@ if ($nilai >= 90) {
 ```
 
 #### Hasil
-![[Screenshot101.png]]
+![](asetphp/Screenshot101.png)
 
 #### Analisis
 1. Nilai yang diberikan adalah 75.
@@ -328,7 +328,7 @@ switch ($nilai) {
 ```
 
 #### Hasil
-![[Screenshot103.png]]
+![](asetphp/Screenshot103.png)
 
 #### Analisis
 Variabel `$nilai` diinisialisasi dengan nilai 2.
@@ -366,7 +366,7 @@ echo $buah[4];
 ```
 
 #### Hasil
-![[Screenshot104.png]]
+![](asetphp/Screenshot104.png)
 
 #### Analisis
 1. `$buah = ["Apel", "Pisang", "Jeruk", "Anggur", "Mangga"];`:    
@@ -418,7 +418,7 @@ echo $kontak['telepon'];
 ```
 
 #### Hasil
-![[Screenshot105.png]]
+![](asetphp/Screenshot105.png)
 
 #### Analisis
 1. `$kontak['nama']` mengembalikan nilai `'John Doe'`, yang merupakan nama kontak.
@@ -452,7 +452,7 @@ echo $matriks[1][2]; // Mengakses nilai 6
 ```
 
 #### Hasil
-![[Screenshot112.png]]
+![](asetphp/Screenshot112.png)
 
 #### Analisis
 - Baris 1-3: Membuat array $matriks yang berisi array-array dengan nilai tertentu.
@@ -478,7 +478,7 @@ var_dump($angka);
 ```
 
 ### Hasil
-![[Screenshot113.png]]
+![](asetphp/Screenshot113.png)
 
 ### Analisis
 - Baris 1: Mendeklarasikan variabel $angka dengan nilai 10.
@@ -506,7 +506,7 @@ for ($i = 1; $i <= 5; $i++) {
 ```
 
 #### Hasil
-![[Screenshot106.png]]
+![](asetphp/Screenshot106.png)
 
 #### Analisis
 1. `for (`: Ini menandakan dimulainya sebuah loop `for`.    
@@ -538,7 +538,7 @@ while ($i <= 10) {
 }
 ```
 #### Hasil
-![[Screenshot107.png]]
+![](asetphp/Screenshot107.png)
 #### Analisis
 1. `$i = 1;`: Ini adalah inisialisasi variabel `$i` dengan nilai 1. Variabel `$i` digunakan sebagai penghitung iterasi dalam loop.
 2. `while ($i <= 10) {`: Ini adalah struktur loop `while`. Ini berarti bahwa selama kondisi dalam tanda kurung kurang dari atau sama dengan 10, blok kode dalam kurung kurawal akan terus dieksekusi.
@@ -565,7 +565,7 @@ do {
 } while ($i <= 20);
 ```
 #### Hasil
-![[Screenshot108.png]]
+![](asetphp/Screenshot108.png)
 #### Analisis
 1. `<?php` dan `?>` menandakan awal dan akhir dari blok kode PHP.
 2. `$i = 1;` ini adalah inisialisasi variabel `$i` dengan nilai 1. Variabel ini akan digunakan untuk melacak nilai saat ini dalam perulangan.
@@ -592,7 +592,7 @@ foreach ($angka as $nilai) {
 }
 ```
 #### Hasil
-![[Screenshot109.png]]
+![](asetphp/Screenshot109.png)
 #### Analisis
 1. `$angka = array(1, 2, 3, 4, 5, 6, 7, 8, 9);`: Pada baris ini, kita mendefinisikan sebuah array dengan nama `$angka` yang berisi bilangan dari 1 hingga 9.
 2. `foreach ($angka as $nilai) {`: Ini adalah struktur `foreach` dalam PHP. Ini berarti untuk setiap elemen dalam array `$angka`, kita beri nama variabel sementara `$nilai` untuk mengakses nilai setiap elemen tersebut.
@@ -623,7 +623,7 @@ $hasil_penambahan = tambah(5, 3);
 echo "Hasil penambahan: " . $hasil_penambahan; // Output: Hasil penambahan: 8
 ```
 #### Hasil
-![[Screenshot110.png]]
+![](asetphp/Screenshot110.png)
 #### Analisis
 1. Fungsi `tambah($a, $b)` mengambil dua parameter, `$a` dan `$b`, yang mewakili dua angka yang akan dijumlahkan.
 2. Di dalam fungsi, kedua parameter tersebut dijumlahkan menggunakan operator `+` dan hasilnya disimpan dalam variabel `$hasil`.
@@ -745,7 +745,7 @@ $umur = $_GET["umur"];
 ```
 
 ### Hasil
-![[Screenshot205.png]]
+![](asetphp/Screenshot205.png)
 
 #### Analisis
 1. `<?php ... ?>` adalah tag pembuka dan penutup untuk kode PHP
@@ -865,7 +865,7 @@ $umur = $_POST["umur"];
 ```
 
 ### Hasil
-![[Screenshot206.png]]  
+![](asetphp//Screenshot206.png)
 #### Analisis
 1.  `<?php ... ?>` adalah tag pembuka dan penutup untuk kode PHP.
 2. `//` adalah komentar di PHP, artinya `//$nama = $_POST["nama"];` tidak akan dieksekusi.
