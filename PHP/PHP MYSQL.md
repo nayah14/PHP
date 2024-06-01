@@ -23,7 +23,7 @@ if ($koneksi) {
 ```
 
 ## Hasil
-![[Screenshot302.png]]
+![](asetphp/Screenshot302.png)
 
 ## Analisis
 `<?php` adalah tag pembuka yang digunakan untuk menulis kode PHP.
@@ -67,7 +67,7 @@ foreach ($select as $key => $data) {
 //echo '<p>Halo ' . $result['pemilik'] . '!!</p><br>';
 ```
 ## Hasil
-![[Screenshot301.png]]
+![](asetphp/Screenshot301.png)
 ## Analisis
 1. Koneksi ke database:
     - Menggunakan fungsi `mysqli_connect()` untuk membuat koneksi ke database MySQL dengan parameter host ('localhost'), username ('root'), password (''), dan nama database ('rental_rahmat').
@@ -232,7 +232,7 @@ Namun, perlu diperhatikan bahwa bagian yang mengakses data menggunakan `$select`
 </html>
 ```
 ## Hasil
-![[Screenshot305.png]]
+![](asetphp/Screenshot305.png)
 ## Analisis
 - **Deklarasi DOCTYPE dan Struktur Dasar HTML**
     - `<!DOCTYPE html>`: Deklarasi tipe dokumen yang memberitahu browser bahwa dokumen ini menggunakan HTML5.
@@ -449,7 +449,7 @@ Namun, perlu diperhatikan bahwa bagian yang mengakses data menggunakan `$select`
 </html>
 ```
 ## Hasil
-![[Screenshot306 1.png]]
+![](asetphp/Screenshot3061.png)
 ## Analisis
 1. **Struktur HTML Dasar**:
     - `<!DOCTYPE html>`: Mendeklarasikan bahwa dokumen ini menggunakan HTML5.
@@ -530,8 +530,8 @@ if(isset($_GET['id'])){
 ?>
 ```
 ## Hasil
-![[Screenshot307.png]]
-![[Screenshot308.png]]
+![](asetphp/Screenshot307.png)
+![](asetphp/Screenshot308.png)
 ## Analisis
 1. Baris ini mengimpor file `koneksi.php` yang berisi kode untuk menghubungkan ke database MySQL. Dengan ini, skrip dapat menjalankan operasi database seperti query SQL.
 2. Kondisi ini mengecek apakah parameter `id` disediakan dalam URL menggunakan metode GET. Jika parameter `id` ada, maka kode di dalam blok `if` akan dieksekusi.
@@ -649,7 +649,7 @@ if (isset($_POST['submit'])) {
 ```
 
 ### Hasil
-![[Screenshot309.png]]
+![](asetphpScreenshot309.png)
 ### Analisis
 1. Fungsi `session_start()` digunakan untuk memulai sesi PHP, memungkinkan skrip untuk menyimpan dan mengakses variabel sesi.
 2. Blok `if` ini memeriksa apakah formulir login telah disubmit. Jika ya, nilai `username` dan `password` diambil dari input pengguna.
@@ -680,9 +680,9 @@ session_unset();
 header('Location: login.php');
 ```
 ### Hasil
-![[Screenshot310.png]]
+![](asetphp/Screenshot310.png)
 
-![[Screenshot311.png]]
+![](asetphp/Screenshot311.png)
 ### Analisis
 - **Inisiasi Sesi**:
     - `session_start();` memulai atau melanjutkan sesi yang ada.
@@ -901,7 +901,7 @@ header('Location: login.php');
 </html>
 ```
 ### Hasil
-![[Screenshot312.png]]
+![](asetphp/Screenshot312.png)
 ### Analisis
 
 1. Kode program ini merupakan halaman utama (index) untuk menampilkan data siswa berprestasi yang disimpan dalam database.
@@ -1035,7 +1035,7 @@ exit;
 
 ```
 ### Hasil
-![[Screenshot313.png]]
+![](asetphp/Screenshot313.png)
 
 ### Analisis
 1. Kode program ini merupakan halaman untuk mengekspor data siswa ke dalam format file Excel (.xls).
